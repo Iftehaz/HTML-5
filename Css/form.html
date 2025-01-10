@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom:10px ;
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name"> Your Name:
+                <input id="name" type="text"
+                placeholder="your name">
+
+
+                </label>
+                <label for="email">Your Email
+                    <input id="email"
+                    type="text" placeholder="your email">
+                </label>
+                <label for="Your Phone Number">Your Phone 
+                    <input id="Your Phone" type="text" placeholder="Your Phone number">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one flavor</legend>
+                    <label for="Chocolate">
+                        <input type="radio" name="ice cream" id="chocolate">
+                        Chocolate
+                    </label>
+                    <label for="Vanilla">
+                        <input type="radio" name="ice cream" id="Vanilla">
+                        Vanilla
+                    </label>
+                    <label for="butter-scotch">
+                        <input type="radio"  name="ice cream" id="Butter-Scotch">
+                        Butter-Scotch
+                    </label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Pick one or more burgers
+                    </legend>
+                    <label for="chicken">
+                        <input type="checkbox" name="chicken-burger" id="burger">Chicken Burger
+                    </label>
+                    <label for="beef">
+                        <input type="checkbox" name="beef-burger" id="burger">
+                        Beef Burger
+                    </label>
+                    <label for="fish">
+                        <input type="checkbox" name="fish-burger" id="fish">Fish Burger
+                    </label>
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <textarea name="" id="" cols="20" rows="20"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
